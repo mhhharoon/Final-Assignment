@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    color: #1E90FF;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.video-container {
+    margin: 20px 0;
+}
+
+.animation-box {
+    width: 100px;
+    height: 100px;
+    background-color: #ff6347;
+    margin: 0 auto;
+    animation: spin 5s infinite linear;
+}
+
+/* Animation using CSS */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
